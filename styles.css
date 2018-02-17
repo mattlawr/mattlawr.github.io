@@ -9,5 +9,6 @@ h2, h3 {
 body {
 	text-align: center;
 	font-family: "Helvetica";
+	color: white;
 	background: linear-gradient(to top, #2b3c3b, #050505);
 }
