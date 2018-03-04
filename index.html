@@ -8,6 +8,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 <style>
+:root
+{
+  --gTxtPadding: 6px;
+}
+
 body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif;}
 body, html {
     height: 100%;
@@ -17,8 +22,20 @@ body, html {
     background-size: cover;
     
     color: #c4bebd;
-    line-height: 1.8;
+    line-height: 1.5;
 }
+p {
+  font-size: 11pt;
+}
+a {
+  color: #a83e3e;
+  text-decoration: none;
+}
+a:hover{
+  color: #f2482e;
+  text-decoration: underline;
+}
+
 .parCent1 {
 
   width: 725px;
@@ -38,18 +55,17 @@ body, html {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 340px;
-  grid-gap: 2%;
   padding: 2%;
 }
 .grid-container-s {
   width: 725px;
-  height: 600px;
+  height: 1220px;
   margin-left: auto;
   margin-right: auto;
   
   display: grid;
   grid-template-columns: 48% 48%;
-  grid-template-rows: 340px;
+  grid-template-rows: 380px 380px 380px;
   grid-gap: 2%;
   padding: 2%;
 }
@@ -68,12 +84,12 @@ body, html {
 }
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('images/screen01.png');
+    background-image: url('images/thumbs/enc_bk1.png');
     min-height: 100%;
 }
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url('images/pic8.png');
+    background-image: url('images/thumbs/enc_bk2.png');
     min-height: 400px;
 }
 /* Third image (Contact) */
@@ -127,27 +143,100 @@ body, html {
 
   <h4 class="parCent1">CURRENT PROJECTS</h4>
   <div class="grid-container" style="height:400px">
-    <div class="grid-item">
-      <h4 style="padding-left:4px"><b>Enchain (2018)</b></h4>
-      <img src="images/screen01.png" style="width:50%"><br>
-      <div style="padding:4px">The new game</div>
+    <div class="grid-item" style="height:105%">
+      <div style="width:55%; height:100%; float:left">
+        <h4 style="padding-left:4px"><b>Enchain (2017-2018)</b></h4>
+        <img src="images/thumbs/enc_th2.png" style="width:100%; float:left;">
+        <p style="padding:var(--gTxtPadding); clear:both;">Currently in development, Enchain is a retro inspired FPS
+        with a focus on grapple <i>chain</i> mechanics and fast movement. Full release details TBD.</p>
+      </div>
+      <div style="border-style:solid; border-width:0px; border-left-width:3px; border-color:#111111; margin-left:55%; height:100%; margin-top:-10px;">
+        <h6 class="w3-center" style="padding:0px; padding-top:100px;
+        height:80%">
+          <a href="https://gamejolt.com/games/enchain/302640">Game Jolt</a><br>
+          <a href="https://powerspark.itch.io/enchain">Itch.io</a><br>
+          <a href="https://ldjam.com/events/ludum-dare/40/enchain">Ludum Dare Entry</a>
+        </h6>
+      </div>
     </div>
   </div>
   
-  <h4 class="parCent1">OLD PROJECTS || GAME JAMS</h4>
+  <h4 class="parCent1">OLD PROJECTS / GAME JAMS</h4>
   <div class="grid-container-s">
     <div class="grid-item">
-      <h4 style="padding-left:4px"><b>Bionic [Beta] (2017)</b></h4>
-      <img src="images/bionic_thumbBeta.png" style="width:100%"><br>
-      <div style="padding:4px">The new game</div>
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Bionic [Beta] (2014-2017)</b></h4>
+      <div style="background-image: url(images/thumbs/bio_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding)">CS-inspired multiplayer shooter with custom bot
+      and map support. Currently in hiatus.</p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <a href="https://gamejolt.com/games/bionic/96904">Game Jolt</a><br>
+          <a href="https://powerspark.itch.io/bionic">Itch.io</a><br>
+          <a href="http://www.indiedb.com/games/bionicfps">IndieDB</a>
+      </p>
     </div>
     <div class="grid-item">
-      <h4 style="padding-left:4px"><b>Gaia (2017)</b></h4>
-      <img src="images/screen01.png" style="width:100%"><br>
-      <div style="padding:4px">The Ludum Dare game</div>
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Kickshock (2017)</b></h4>
+      <div style="background-image: url(images/thumbs/kck_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding)">Short platformer with cannon-arm recoil movement.
+      <br>
+      <i>Created for GMTK JAM 2017</i></p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <br>
+          <a href="https://powerspark.itch.io/kickshock">Itch.io</a>
+      </p>
     </div>
-    <div class="grid-item">next item</div>
-    <div class="grid-item">this isn't done</div>
+    <div class="grid-item">
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Gaia (2017)</b></h4>
+      <div style="background-image: url(images/thumbs/gai_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding)">Platformer with interactive clouds used to jump through levels.
+      <i>Theme: Small World</i></p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <a href="https://gamejolt.com/games/gaia/251843">Game Jolt</a><br>
+          <a href="https://powerspark.itch.io/gaia">Itch.io</a><br>
+          <a href="https://ldjam.com/events/ludum-dare/38/gaia">Ludum Dare Entry</a>
+      </p>
+    </div>
+    <div class="grid-item">
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Super Battle Cycle (2017)</b></h4>
+      <div style="background-image: url(images/thumbs/sbc_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding)">Drive around a toy motorcycle swinging grappled boxes into enemies.
+      <i>Theme: One Room</i></p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <a href="https://gamejolt.com/games/sbc/217338">Game Jolt</a><br>
+          <a href="https://powerspark.itch.io/super-battle-cycle">Itch.io</a><br>
+          <a href="http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=38755">Ludum Dare Entry</a>
+      </p>
+    </div>
+    <div class="grid-item">
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Fugitive Shift (2016)</b></h4>
+      <div style="background-image: url(images/thumbs/fug_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding)">Use a team of escaped prisoners with special abilities
+      to find the exit.
+      <i>Theme: Shapeshifting</i></p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <a href="https://gamejolt.com/games/fugitive-shift/141716">Game Jolt</a><br>
+          <a href="https://powerspark.itch.io/fugitive-shift">Itch.io</a><br>
+          <a href="http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=38755">Ludum Dare Entry</a>
+      </p>
+    </div>
+    <div class="grid-item">
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Edo Arena (2016)</b></h4>
+      <div style="background-image: url(images/thumbs/edo_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding)">Swing to leap into the air,
+      building combos off of enemies.
+      <i>Theme: Two Buttons</i></p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <a href="https://gamejolt.com/games/edo-arena/113654">Game Jolt</a><br>
+          <a href="https://powerspark.itch.io/edo-arena">Itch.io</a><br>
+          <a href="http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=38755">Ludum Dare Entry</a>
+      </p>
+    </div>
   </div>
 
   <!--<div class="w3-row-padding w3-center w3-section">
@@ -170,7 +259,7 @@ body, html {
   </div>-->
 </div>
 
-<!-- Modal for full size images on click-->
+<!-- Model for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
@@ -219,7 +308,8 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64 w3-opacity">
   <!--<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i></a>-->
   <div class="w3-xlarge w3-section">
-    <a href="https://twitter.com/PowerSparkGames"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/PowerSparkGames" style="color:white"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.facebook.com/powersparkgames" style="color:white"><i class="fa fa-facebook-square w3-hover-opacity"></i></a>
   </div>
   <div>
     <p class="w3-center">&copy; 2018 Matthew Lawrence</p>
