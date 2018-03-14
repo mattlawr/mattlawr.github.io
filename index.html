@@ -11,6 +11,7 @@
 :root
 {
   --gTxtPadding: 6px;
+  --minWidth: 330px;
 }
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif;}
@@ -38,7 +39,8 @@ a:hover{
 
 .parCent1 {
 
-  width: 725px;
+  width: 80%;
+  min-width: var(--minWidth);
 
   margin-left: auto;
 
@@ -47,19 +49,22 @@ a:hover{
 }
 
 .grid-container {
-  width: 725px;
+  width: 80%;
+  min-width: var(--minWidth);
   height: 600px;
   margin-left: auto;
   margin-right: auto;
   
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 98%;
   grid-template-rows: 340px;
+  grid-gap: 2%;
   padding: 2%;
 }
 .grid-container-s {
-  width: 725px;
-  height: 1220px;
+  width: 80%;
+  min-width: var(--minWidth);
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   
@@ -68,6 +73,18 @@ a:hover{
   grid-template-rows: 380px 380px 380px;
   grid-gap: 2%;
   padding: 2%;
+}
+.grid-item-c {
+  width: 45.5%;
+  min-width: var(--minWidth);
+  height: 380px;
+  float: left;
+  
+  background-color: #171717;
+  text-align: left;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 2%;
 }
 .grid-item {
   background-color: #171717;
@@ -101,10 +118,13 @@ a:hover{
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-/* Turn off parallax scrolling for tablets and phones */
+/* Change scaling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
+        background-attachment: scroll;/* Turn off parallax scrolling */
+    }
+    .parCent1, .grid-container, .grid-container-s, .grid-item-c {
+      width: 100%;
     }
 }
 </style>
@@ -139,7 +159,7 @@ a:hover{
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">PROJECTS</h3>
-  <p class="w3-center">My work, past and present.</p><br>
+  <p class="w3-center" style="min-width:200px;">My work, past and present.</p><br>
 
   <h4 class="parCent1">CURRENT PROJECTS</h4>
   <div class="grid-container" style="height:400px">
@@ -187,7 +207,34 @@ a:hover{
           <a href="https://powerspark.itch.io/kickshock">Itch.io</a>
       </p>
     </div>
-    <div class="grid-item">
+  </div>
+  
+  <div style="width:80%; margin-left:auto; margin-right:auto;">
+    <div class="grid-item-c">
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Bionic [Beta] (2014-2017)</b></h4>
+      <div style="background-image: url(images/thumbs/bio_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding)">CS-inspired multiplayer shooter with custom bot
+      and map support. Currently in hiatus.</p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <a href="https://gamejolt.com/games/bionic/96904">Game Jolt</a><br>
+          <a href="https://powerspark.itch.io/bionic">Itch.io</a><br>
+          <a href="http://www.indiedb.com/games/bionicfps">IndieDB</a>
+      </p>
+    </div>
+    <div class="grid-item-c">
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Kickshock (2017)</b></h4>
+      <div style="background-image: url(images/thumbs/kck_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding)">Short platformer with cannon-arm recoil movement.
+      <br>
+      <i>Created for GMTK JAM 2017</i></p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <br>
+          <a href="https://powerspark.itch.io/kickshock">Itch.io</a>
+      </p>
+    </div>
+    <div class="grid-item-c">
       <h4 style="padding-left:var(--gTxtPadding)"><b>Gaia (2017)</b></h4>
       <div style="background-image: url(images/thumbs/gai_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
@@ -199,7 +246,7 @@ a:hover{
           <a href="https://ldjam.com/events/ludum-dare/38/gaia">Ludum Dare Entry</a>
       </p>
     </div>
-    <div class="grid-item">
+    <div class="grid-item-c">
       <h4 style="padding-left:var(--gTxtPadding)"><b>Super Battle Cycle (2017)</b></h4>
       <div style="background-image: url(images/thumbs/sbc_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
@@ -211,7 +258,7 @@ a:hover{
           <a href="http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=38755">Ludum Dare Entry</a>
       </p>
     </div>
-    <div class="grid-item">
+    <div class="grid-item-c">
       <h4 style="padding-left:var(--gTxtPadding)"><b>Fugitive Shift (2016)</b></h4>
       <div style="background-image: url(images/thumbs/fug_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
@@ -224,7 +271,7 @@ a:hover{
           <a href="http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=38755">Ludum Dare Entry</a>
       </p>
     </div>
-    <div class="grid-item">
+    <div class="grid-item-c">
       <h4 style="padding-left:var(--gTxtPadding)"><b>Edo Arena (2016)</b></h4>
       <div style="background-image: url(images/thumbs/edo_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
