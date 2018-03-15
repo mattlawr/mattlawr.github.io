@@ -11,7 +11,7 @@
 :root
 {
   --gTxtPadding: 6px;
-  --minWidth: 330px;
+  --minWidth: 320px;
 }
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif;}
@@ -45,34 +45,28 @@ a:hover{
   margin-left: auto;
 
   margin-right: auto;
+  
+  clear: both;
 
 }
 
-.grid-container {
+.grid-container-c {
   width: 80%;
   min-width: var(--minWidth);
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  
-  display: grid;
-  grid-template-columns: 98%;
-  grid-template-rows: 340px;
-  grid-gap: 2%;
-  padding: 2%;
+  margin-left:auto;
+  margin-right:auto;
 }
-.grid-container-s {
-  width: 80%;
+.grid-item-b {
+  width: 92%;
   min-width: var(--minWidth);
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 340px;
+  float: left;
   
-  display: grid;
-  grid-template-columns: 48% 48%;
-  grid-template-rows: 380px 380px 380px;
-  grid-gap: 2%;
-  padding: 2%;
+  background-color: #171717;
+  text-align: left;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 2%;
 }
 .grid-item-c {
   width: 45.5%;
@@ -123,7 +117,7 @@ a:hover{
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;/* Turn off parallax scrolling */
     }
-    .parCent1, .grid-container, .grid-container-s, .grid-item-c {
+    .parCent1, .grid-container-c, .grid-item-c, .grid-item-b {
       width: 100%;
     }
 }
@@ -162,8 +156,8 @@ a:hover{
   <p class="w3-center" style="min-width:200px;">My work, past and present.</p><br>
 
   <h4 class="parCent1">CURRENT PROJECTS</h4>
-  <div class="grid-container" style="height:400px">
-    <div class="grid-item" style="height:105%">
+  <div class="grid-container-c" style="height:400px">
+    <div class="grid-item-b">
       <div style="width:55%; height:100%; float:left">
         <h4 style="padding-left:4px"><b>Enchain (2017-2018)</b></h4>
         <img src="images/thumbs/enc_th2.png" style="width:100%; float:left;">
@@ -182,7 +176,7 @@ a:hover{
   </div>
   
   <h4 class="parCent1">OLD PROJECTS / GAME JAMS</h4>
-  <div class="grid-container-s">
+  <!--<div class="grid-container-s">
     <div class="grid-item">
       <h4 style="padding-left:var(--gTxtPadding)"><b>Bionic [Beta] (2014-2017)</b></h4>
       <div style="background-image: url(images/thumbs/bio_th1.png); background-size:cover; height:180px;
@@ -207,9 +201,9 @@ a:hover{
           <a href="https://powerspark.itch.io/kickshock">Itch.io</a>
       </p>
     </div>
-  </div>
+  </div>-->
   
-  <div style="width:80%; margin-left:auto; margin-right:auto;">
+  <div class="grid-container-c">
     <div class="grid-item-c">
       <h4 style="padding-left:var(--gTxtPadding)"><b>Bionic [Beta] (2014-2017)</b></h4>
       <div style="background-image: url(images/thumbs/bio_th1.png); background-size:cover; height:180px;
@@ -250,7 +244,7 @@ a:hover{
       <h4 style="padding-left:var(--gTxtPadding)"><b>Super Battle Cycle (2017)</b></h4>
       <div style="background-image: url(images/thumbs/sbc_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding)">Drive around a toy motorcycle swinging grappled boxes into enemies.
+      <p style="padding-left:var(--gTxtPadding)">Drive around a toy motorcycle swinging boxes into enemies.
       <i>Theme: One Room</i></p>
       <p style="padding-left:var(--gTxtPadding);">
           <a href="https://gamejolt.com/games/sbc/217338">Game Jolt</a><br>
