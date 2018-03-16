@@ -11,7 +11,7 @@
 :root
 {
   --gTxtPadding: 6px;
-  --minWidth: 320px;
+  --minWidth: 300px;
 }
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif;}
@@ -46,6 +46,9 @@ a:hover{
 
   margin-right: auto;
   
+  padding-left: 2%;
+  padding-right: 2%;
+  
   clear: both;
 
 }
@@ -57,9 +60,9 @@ a:hover{
   margin-right:auto;
 }
 .grid-item-b {
-  width: 92%;
+  width: 95%;
   min-width: var(--minWidth);
-  height: 340px;
+  height: 350px;
   float: left;
   
   background-color: #171717;
@@ -77,7 +80,7 @@ a:hover{
   background-color: #171717;
   text-align: left;
   margin-left: 2%;
-  margin-right: auto;
+  margin-right: 2%;
   margin-top: 2%;
 }
 .grid-item {
@@ -133,8 +136,8 @@ a:hover{
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT</h3>
+<div class="w3-content w3-container w3-padding-32" id="about">
+  <h3 class="parCent1">ABOUT</h3>
   <!--<p class="w3-center"><b>Matthew Lawrence</b><br>student | indie game dev</p>-->
   <p class="parCent1">My name is Matthew Lawrence and I make games, videos, and other media.</p>
   <p class="parCent1">Currently, I am in high school. My main project is Enchain, a small first person shooter which I develop alone.
@@ -143,19 +146,20 @@ a:hover{
   
 </div>
 
-<!-- Second Parallax Image with Portfolio Text -->
+<!-- Second Parallax Image with Portfolio Text
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
   </div>
-</div>
+</div>-->
+<hr class="parCent1" style="border-color: #c4bebd; padding: 0;">
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">PROJECTS</h3>
-  <p class="w3-center" style="min-width:200px;">My work, past and present.</p><br>
+<div class="w3-content w3-container w3-padding-32" id="portfolio">
+  <h3 class="parCent1">PROJECTS</h3>
+  <p class="parCent1">My work, past and present.</p>
 
-  <h4 class="parCent1">CURRENT PROJECTS</h4>
+  <!--<h4 class="parCent1">CURRENT PROJECTS</h4>-->
   <div class="grid-container-c" style="height:400px">
     <div class="grid-item-b">
       <div style="width:55%; height:100%; float:left">
@@ -175,40 +179,13 @@ a:hover{
     </div>
   </div>
   
-  <h4 class="parCent1">OLD PROJECTS / GAME JAMS</h4>
-  <!--<div class="grid-container-s">
-    <div class="grid-item">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Bionic [Beta] (2014-2017)</b></h4>
-      <div style="background-image: url(images/thumbs/bio_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding)">CS-inspired multiplayer shooter with custom bot
-      and map support. Currently in hiatus.</p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://gamejolt.com/games/bionic/96904">Game Jolt</a><br>
-          <a href="https://powerspark.itch.io/bionic">Itch.io</a><br>
-          <a href="http://www.indiedb.com/games/bionicfps">IndieDB</a>
-      </p>
-    </div>
-    <div class="grid-item">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Kickshock (2017)</b></h4>
-      <div style="background-image: url(images/thumbs/kck_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding)">Short platformer with cannon-arm recoil movement.
-      <br>
-      <i>Created for GMTK JAM 2017</i></p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <br>
-          <a href="https://powerspark.itch.io/kickshock">Itch.io</a>
-      </p>
-    </div>
-  </div>-->
-  
+  <!--<h4 class="parCent1">OLD PROJECTS + GAME JAMS</h4>-->
   <div class="grid-container-c">
     <div class="grid-item-c">
       <h4 style="padding-left:var(--gTxtPadding)"><b>Bionic [Beta] (2014-2017)</b></h4>
       <div style="background-image: url(images/thumbs/bio_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding)">CS-inspired multiplayer shooter with custom bot
+      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">CS-inspired multiplayer shooter with custom bot
       and map support. Currently in hiatus.</p>
       <p style="padding-left:var(--gTxtPadding);">
           <a href="https://gamejolt.com/games/bionic/96904">Game Jolt</a><br>
@@ -220,7 +197,7 @@ a:hover{
       <h4 style="padding-left:var(--gTxtPadding)"><b>Kickshock (2017)</b></h4>
       <div style="background-image: url(images/thumbs/kck_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding)">Short platformer with cannon-arm recoil movement.
+      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Short platformer with cannon-arm recoil movement.
       <br>
       <i>Created for GMTK JAM 2017</i></p>
       <p style="padding-left:var(--gTxtPadding);">
@@ -232,7 +209,7 @@ a:hover{
       <h4 style="padding-left:var(--gTxtPadding)"><b>Gaia (2017)</b></h4>
       <div style="background-image: url(images/thumbs/gai_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding)">Platformer with interactive clouds used to jump through levels.
+      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Platformer with interactive clouds used to jump through levels.
       <i>Theme: Small World</i></p>
       <p style="padding-left:var(--gTxtPadding);">
           <a href="https://gamejolt.com/games/gaia/251843">Game Jolt</a><br>
@@ -244,7 +221,7 @@ a:hover{
       <h4 style="padding-left:var(--gTxtPadding)"><b>Super Battle Cycle (2017)</b></h4>
       <div style="background-image: url(images/thumbs/sbc_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding)">Drive around a toy motorcycle swinging boxes into enemies.
+      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Drive around a toy motorcycle swinging boxes into enemies.
       <i>Theme: One Room</i></p>
       <p style="padding-left:var(--gTxtPadding);">
           <a href="https://gamejolt.com/games/sbc/217338">Game Jolt</a><br>
@@ -256,7 +233,7 @@ a:hover{
       <h4 style="padding-left:var(--gTxtPadding)"><b>Fugitive Shift (2016)</b></h4>
       <div style="background-image: url(images/thumbs/fug_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding)">Use a team of escaped prisoners with special abilities
+      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Use a team of escaped prisoners with special abilities
       to find the exit.
       <i>Theme: Shapeshifting</i></p>
       <p style="padding-left:var(--gTxtPadding);">
@@ -269,7 +246,7 @@ a:hover{
       <h4 style="padding-left:var(--gTxtPadding)"><b>Edo Arena (2016)</b></h4>
       <div style="background-image: url(images/thumbs/edo_th1.png); background-size:cover; height:180px;
       background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding)">Swing to leap into the air,
+      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Swing to leap into the air,
       building combos off of enemies.
       <i>Theme: Two Buttons</i></p>
       <p style="padding-left:var(--gTxtPadding);">
