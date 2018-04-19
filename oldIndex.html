@@ -20,7 +20,6 @@ body, html {
     background: #080808;
     background: no-repeat center fixed #232323;
     /*linear-gradient(to bottom, #381310, #050505)*/
-    background-image: linear-gradient(to bottom, #381310, #050505);
     background-size: cover;
     
     color: #c4bebd;
@@ -94,7 +93,7 @@ a:hover{
 
 /* Accordion panel */
 .accordion {
-    background-color: #1B1B1B;
+    background-color: #232323;
     cursor: pointer;
     padding: 18px;
     
@@ -125,7 +124,7 @@ a:hover{
     transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked (.active class with JS), and (hover) */
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
     background-color: #121212;
 }
@@ -193,22 +192,35 @@ a:hover{
   </div>
 </div>
 
-
-<!-- Container -->
-<div>
-  <button class="accordion"><h3 class="parCent1">ABOUT</h3></button>
-    <div class="panel">
-      <p class="parCent1">My name is Matthew Lawrence and I make games, videos, and other media.</p>
-      <p class="parCent1">Currently, I am a high school student who has taken up independent game development as an effort of self enrichment.
-      My main project is Enchain, a small, experimental first person shooter which I develop alone.
-      I started out making games at about 13 years old, learning Flash and later Unity + C# over the years.</p>
-      <p class="parCent1">Below you will find a brief list of my projects.</p>
-    </div>
-    
-    
-  <button class="accordion"><h3 class="parCent1">PROJECTS</h3></button>
-  <div class="panel">
+<!-- Container (About Section) -->
+<div class="w3-padding-32" id="about">
+  <h3 class="parCent1">ABOUT</h3>
   
+  <!--<p class="w3-center"><b>Matthew Lawrence</b><br>student | indie game dev</p>-->
+  <p class="parCent1">My name is Matthew Lawrence and I make games, videos, and other media.</p>
+  <p class="parCent1">Currently, I am a high school student who has taken up independent game development as an effort of self enrichment.
+  My main project is Enchain, a small, experimental first person shooter which I develop alone.
+  I started out making games at about 13 years old, learning Flash and later Unity + C# over the years.</p>
+  <p class="parCent1">Below you will find a brief list of my projects.</p>
+  
+<!--</div>-->
+
+<!-- Second Parallax Image with Portfolio Text
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>-->
+<br>
+<hr class="parCent1" style="border-color: #c4bebd; padding: 0px;">
+<br>
+
+<!-- Container (Portfolio Section) -->
+<!--<div class="w3-content w3-container w3-padding-32" id="portfolio">-->
+  <h3 class="parCent1">PROJECTS</h3>
+  <p class="parCent1">My work, past and present.</p>
+
+  <!--<h4 class="parCent1">CURRENT PROJECTS</h4>-->
   <div class="grid-container-c" style="height:400px">
     <div class="grid-item-b">
       <div style="width:55%; height:100%; float:left">
@@ -305,8 +317,6 @@ a:hover{
       </p>
     </div>
   </div>
-  <br>
-  </div>
 
   <!--<div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
@@ -344,17 +354,47 @@ a:hover{
   </div>
 </div>-->
 
+<hr class="parCent1" style="border-color: #c4bebd; padding: 0px;">
+<br>
+
+<!-- Container (Contact Section)
+<div class="w3-content w3-container w3-padding-32" id="contact">-->
+  <h3 class="parCent1">CONTACT</h3>
+
+  <div>
+    <!--<div class="w3-col m4 w3-container">
+      <!-- Add Google Maps
+      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+    </div>-->
+    <div>
+      <div class="parCent1">mattblawr@gmail.com</div>
+      <!--<form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          SEND MESSAGE
+        </button>
+      </form>-->
+    </div>
+  </div>
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding w3-opacity">
+<footer class="w3-center w3-black w3-padding-32 w3-opacity">
   <!--<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i></a>-->
   <div class="w3-xlarge w3-section">
     <a href="https://twitter.com/PowerSparkGames" style="color:white"><i class="fa fa-twitter w3-hover-opacity"></i></a>
     <a href="https://www.facebook.com/powersparkgames" style="color:white"><i class="fa fa-facebook-square w3-hover-opacity"></i></a>
   </div>
   <div>
-    <p class="w3-center">Copyright &copy; 2018 Matthew Lawrence</p>
+    <p class="w3-center">&copy; 2018 Matthew Lawrence</p>
   </div>
 </footer>
 
