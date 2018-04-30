@@ -12,6 +12,7 @@
 {
   --gTxtPadding: 6px;
   --minWidth: 290px;
+  --minWidthW: 640px;
 }
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif; color: #c4bebd;}
@@ -55,7 +56,7 @@ a:hover{
 
 .grid-container-c {
   width: 85%;
-  min-width: var(--minWidth);
+  min-width: var(--minWidthW);
   max-width: 800px;
   margin-left:auto;
   margin-right:auto;
@@ -176,6 +177,7 @@ a:hover{
     }
     .parCent1, .grid-container-c, .grid-item-c, .grid-item-b {
       width: 100%;
+      min-width: var(--minWidth);
     }
     .grid-item-c, .grid-item-b {
       margin-left: 0%;
@@ -242,6 +244,18 @@ a:hover{
   
   <!--<h4 class="parCent1">OLD PROJECTS + GAME JAMS</h4>-->
   <div class="grid-container-c" style="height: 20px">
+    <div class="grid-item-c">
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Astral Fantasy (2018)</b></h4>
+      <div style="background-image: url(images/thumbs/ast_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">
+        Mixing of space physics and turn-based retro RPG elements.<br>
+      <i>Theme: Combine 2 Incompatible Genres</i></p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <a href="https://powerspark.itch.io/astral-fantasy">Itch.io</a><br>
+          <a href="https://ldjam.com/events/ludum-dare/41/astral-fantasy">Ludum Dare Entry</a>
+      </p>
+    </div>
     <div class="grid-item-c">
       <h4 style="padding-left:var(--gTxtPadding)"><b>Bionic [Beta] (2014-2017)</b></h4>
       <div style="background-image: url(images/thumbs/bio_th1.png); background-size:cover; height:180px;
@@ -314,6 +328,18 @@ a:hover{
           <a href="https://gamejolt.com/games/edo-arena/113654">Game Jolt</a><br>
           <a href="https://powerspark.itch.io/edo-arena">Itch.io</a><br>
           <a href="http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=38755">Ludum Dare Entry</a>
+      </p>
+    </div>
+    <div class="grid-item-c">
+      <h4 style="padding-left:var(--gTxtPadding)"><b>Hymn of the Sages (2015)</b></h4>
+      <div style="background-image: url(images/thumbs/hym_th1.png); background-size:cover; height:180px;
+      background-position:center;"></div>
+      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Swing to leap into the air,
+      building combos off of enemies.
+      <i>Theme: You Are The Monster</i></p>
+      <p style="padding-left:var(--gTxtPadding);">
+          <a href="https://gamejolt.com/games/hymn-of-the-sages/88559">Game Jolt</a><br>
+          <a href="http://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=38755">Ludum Dare Entry</a>
       </p>
     </div>
   </div>
