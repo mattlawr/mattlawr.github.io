@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<company>
+  <title>Matthew Lawrence</title>
+  <based-in>USA</based-in>
+  <founding-date>2014</founding-date>
+  <website>http://mattlawr.github.io</website>
+  <press-contact>
+    mattblawr@gmail.com
+  </press-contact>
+
+  <socials>
+    <social>
+      <name>Twitter</name>
+      <link>
+        <!-- URL starting with http or https -->
+      </link>
+    </social>
+	<social>
+      <name>Itch.io</name>
+      <link>
+        https://powerspark.itch.io/
+      </link>
+    </social>
+  </socials>
+
+  <description>My name is Matthew Lawrence and I make games, videos, and other media.</description>
+
+  <!-- Choose between a single block: -->
+  <history>
+      Currently, I am a high school student who has taken up independent game development as an effort of self enrichment.
+	  My main project is Enchain, a small, experimental first person shooter which I develop alone. I started out making games at about 13 years old, learning Flash and later Unity + C# over the years.
+	  I was known as Power Spark Games for a time until early 2018.
+  </history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <!--
+  <trailers>
+    <trailer>
+      <name></name>
+      <youtube>
+        Video ID only, not the full URL
+      </youtube>
+    </trailer>
+  </trailers>
+  -->
+
+  <!--
+  <awards>
+    <award>
+      <description></description>
+      <info></info>
+    </award>
+  </awards>
+  
+
+  <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals>
+  -->
+
+  <credits>
+    <credit>
+      <person>Matthew Lawrence</person>
+      <role>Founder</role>
+
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+  </credits>
+
+  <!--
+  <contacts>
+    <contact>
+      <name>Matthew Lawrence</name>
+      <mail></mail>
+      <link></link>
+    </contact>
+  </contacts>
+  -->
+</company>

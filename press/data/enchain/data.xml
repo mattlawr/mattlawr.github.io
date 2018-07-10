@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game>
+  <title>Enchain</title>
+  <website>http://mattlawr.github.io/enchain</website>
+  <release-dates>
+	<release-date>Prototype (Ludum Dare) Dec, 2017</release-date>
+    <release-date>Full Release TBD</release-date>
+  </release-dates>
+
+  <socials>
+    <social>
+      <name></name>
+      <link>
+        <!-- URL starting with http or https -->
+      </link>
+    </social>
+  </socials>
+
+  <description>ENCHAIN is a retro-themed first-person shooter that is currently in development. Play the free prototype and follow me to stay updated with future news.</description>
+
+  <!-- Choose between a single block: -->
+  <history>Originally developed for Ludum Dare 40 in under 72 hours. Theme: "The more you have, the worse it is."</history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <credits>
+    <credit>
+      <person>Matthew Lawrence</person>
+      <role>Developer</role>
+
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Matthew Lawrence</name>
+
+      <!-- Pick one: -->
+      <mail>mattblawr@gmail.com</mail>
+      <link></link>
+    </contact>
+  </contacts>
+</game>
