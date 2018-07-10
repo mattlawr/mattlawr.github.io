@@ -3,15 +3,15 @@
   <title>Enchain</title>
   <website>http://mattlawr.github.io/enchain</website>
   <release-dates>
-	<release-date>Prototype (Ludum Dare) Dec, 2017</release-date>
+	<release-date>Prototype (Ludum Dare) Dec 05, 2017</release-date>
     <release-date>Full Release TBD</release-date>
   </release-dates>
 
   <socials>
     <social>
-      <name></name>
+      <name>Twitter</name>
       <link>
-        <!-- URL starting with http or https -->
+        https://twitter.com/mattlawrdev
       </link>
     </social>
   </socials>
@@ -21,6 +21,32 @@
   <!-- Choose between a single block: -->
   <history>Originally developed for Ludum Dare 40 in under 72 hours. Theme: "The more you have, the worse it is."</history>
 
+  <features>
+    <feature>Fast paced, 90s inspired gunplay in open environments.</feature>
+	<feature>Grapple chain movement and combat mechanics.</feature>
+  </features>
+  
+  <platforms>
+    <platform>
+      <name>WebGL/Standalone Prototype Demo</name>
+      <link>https://gamejolt.com/games/enchain/302640</link>
+    </platform>
+    <platform>
+      <name>Steam [TBD]</name>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency>USD</currency>
+      <value>TBD</value>
+    </price>
+    <!--<price>
+      <currency>EUR</currency>
+      <value>€15.20</value>
+    </price>-->
+  </prices>
+  
   <!-- Or multiple blocks: -->
   <!--
   <histories>

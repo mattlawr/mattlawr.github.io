@@ -12,13 +12,25 @@
     <social>
       <name>Twitter</name>
       <link>
-        <!-- URL starting with http or https -->
+        https://twitter.com/mattlawrdev
       </link>
     </social>
 	<social>
       <name>Itch.io</name>
       <link>
         https://powerspark.itch.io/
+      </link>
+    </social>
+	<social>
+      <name>GameJolt</name>
+      <link>
+        https://gamejolt.com/@PowerSpark
+      </link>
+    </social>
+	<social>
+      <name>IndieDB</name>
+      <link>
+        https://www.indiedb.com/company/power-spark-games
       </link>
     </social>
   </socials>
@@ -31,7 +43,7 @@
 	  My main project is Enchain, a small, experimental first person shooter which I develop alone. I started out making games at about 13 years old, learning Flash and later Unity + C# over the years.
 	  I was known as Power Spark Games for a time until early 2018.
   </history>
-
+  
   <!-- Or multiple blocks: -->
   <!--
   <histories>
@@ -90,13 +102,11 @@
     </credit>
   </credits>
 
-  <!--
   <contacts>
     <contact>
       <name>Matthew Lawrence</name>
-      <mail></mail>
+      <mail>mattblawr@gmail.com</mail>
       <link></link>
     </contact>
   </contacts>
-  -->
 </company>
