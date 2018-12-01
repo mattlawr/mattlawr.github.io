@@ -1,0 +1,6 @@
+USING PRESSKIT HTML
+
+"data" folder holds info .xmls and image folders for pages
+"presskit" holds the exported product to be shown under press/presskit
+pk.bat, when run, should delete "presskit"...
+after a few moments it will export "build" dir, then rename "build" to "presskit"
