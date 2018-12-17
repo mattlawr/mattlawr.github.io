@@ -1,0 +1,17 @@
+/*img {
+	width: 200px;
+}*/
+
+h2, h3 {
+	font-weight: normal;
+}
+
+body {
+	text-align: center;
+	font-family: "Helvetica";
+	color: white;
+	background: no-repeat center fixed linear-gradient(to top, #2b3c3b, #050505);
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+}
