@@ -35,13 +35,17 @@
     </social>
   </socials>
 
-  <description>My name is Matthew Lawrence and I make games, videos, and other media.</description>
+  <description>
+	My name is Matthew Lawrence and I make games, videos, and other media.
+	My main project is Enchain, a small, experimental first person shooter which I develop alone.
+  </description>
 
   <!-- Choose between a single block: -->
   <history>
-      Currently, I am a high school student who has taken up independent game development as an effort of self enrichment.
-	  My main project is Enchain, a small, experimental first person shooter which I develop alone. I started out making games at about 13 years old, learning Flash and later Unity + C# over the years.
-	  I am also known as Power Spark Games.
+      Currently, I am a college student, and I enjoy the process of game making.
+	  I have completed many game jam experiments, and also released a multiplayer FPS called Bionic.
+	  I started out making games at about 13 years old, learning Flash and later Unity + C# over the years.
+	  I am also known as Power Spark Games, but just refer to me by my name whenever possible.
   </history>
   
   <!-- Or multiple blocks: -->
