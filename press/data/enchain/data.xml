@@ -4,6 +4,7 @@
   <website>http://mattlawr.github.io/enchain</website>
   <release-dates>
 	<release-date>Prototype (Ludum Dare) Dec 05, 2017</release-date>
+	<release-date>Demo Release TBD</release-date>
     <release-date>Full Release TBD</release-date>
   </release-dates>
 
@@ -16,10 +17,23 @@
     </social>
   </socials>
 
-  <description>Enchain is a retro-themed first-person shooter, currently in development, that puts a spin on the conventions of modern titles while also pulling from the pioneers of the genre.</description>
+  <description>
+  Enchain is a retro-themed first-person shooter, currently in development, that puts a spin on the conventions of modern titles while also pulling from the pioneers of the genre.
+  Enchain is a hack-and-hook FPS platformer about throwing a cursed lantern to stun, juggle, and grapple your way to resurrection.
+  Breaking apart the bones of the undead is the only way to defeat them. It is the job of the lantern keepers to wade through the forgotten world and recover a lost humanity.
+  Inspired by Quake and Super Smash Bros., your foes need to be literally blown apart or beaten into the walls to be truly vanquished (think about “gibbing”).
+  Also taking cues from Super Mario Odyssey and Hollow Knight, this FPS offers a simple but deep moveset to discover through experimentation.
+  All moves are available from the moment the game begins, but you will need to explore the world to learn more about your limits, or to test them altogether with hidden challenges.
+  </description>
 
   <!-- Choose between a single block: -->
-  <history>Originally developed for Ludum Dare 40 in under 72 hours. Theme: "The more you have, the worse it is."</history>
+  <history>This solo project started in late 2017 as a Ludum Dare 40 entry, created in 72 hours. Theme: "The more you have, the worse it is."
+  The concept in this first rough prototype was a simple, retro inspired FPS with a main grapple hook mechanic and a “burden” mechanic that treated enemies as the keys to doors.
+  After about three months of working on this jam game, I decided to rework the game as my next big project.
+  A lot has changed in the two years since then, with tons of iteration and course corrections in the development as I moved through seasonal school breaks.
+  Sometimes it would be extremely difficult for me to find time to work on the game.
+  Fortunately around the beginning of this year, I settled on the core movement and combat systems of Enchain’s combat, after many months of experimentation.
+  </history>
 
   <features>
     <feature>Fast paced, 90s inspired gunplay in open environments.</feature>
@@ -28,8 +42,8 @@
   
   <platforms>
     <platform>
-      <name>WebGL/Standalone Prototype Demo</name>
-      <link>https://gamejolt.com/games/enchain/302640</link>
+      <name>WebGL/Standalone Classic Entry</name>
+      <link>https://powerspark.itch.io/enchain</link>
     </platform>
     <platform>
       <name>Steam [TBD]</name>
