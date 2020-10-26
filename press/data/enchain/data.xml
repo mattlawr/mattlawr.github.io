@@ -4,7 +4,7 @@
   <website>http://mattlawr.github.io/enchain</website>
   <release-dates>
 	<release-date>Full Release 2021</release-date>
-	<release-date>Demo Release October 2020</release-date>
+	<release-date>Demo Release October 29, 2020</release-date>
 	<release-date>Prototype December 05, 2017</release-date>
   </release-dates>
 
@@ -44,10 +44,9 @@
   <!-- Choose between a single block: -->
   <history>This solo project started in late 2017 as a Ludum Dare 40 entry, created in 72 hours. Theme: "The more you have, the worse it is."
   The concept in this first rough prototype was a simple, retro inspired FPS with a main grapple hook mechanic and a “burden” mechanic that treated enemies as the keys to doors.
-  After about three months of working on this jam game, I decided to rework the game as my next big project.
-  A lot has changed in the two years since then, with tons of iteration and course corrections in the development as I moved through seasonal school breaks.
-  Sometimes it would be extremely difficult for me to find time to work on the game.
-  Fortunately around the beginning of this year, I settled on the core movement and combat systems of Enchain’s combat, after many months of experimentation.
+  After about three months of working on this jam game, developer mattlawr (Matthew Lawrence) decided to rework the game as its next big project.
+  A lot has changed in the two years since then, with tons of iteration and course corrections in the development.
+  ENCHAIN is now moving into its final phase, and will be ready for full release planned in 2021.
   </history>
 
   <features>
