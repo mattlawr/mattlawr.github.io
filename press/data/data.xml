@@ -22,12 +22,6 @@
       </link>
     </social>
 	<social>
-      <name>GameJolt</name>
-      <link>
-        https://gamejolt.com/@PowerSpark
-      </link>
-    </social>
-	<social>
       <name>IndieDB</name>
       <link>
         https://www.indiedb.com/company/power-spark-games
@@ -37,7 +31,7 @@
 
   <description>
 	mattlawr is solo indie game developer Matthew Lawrence who began making games in 2014.
-	His current project is ENCHAIN, a small, experimental first person shooter.
+	His current project is ENCHAIN, an experimental first person shooter + exploration-platformer.
   </description>
 
   <!-- Choose between a single block: -->
@@ -98,6 +92,13 @@
     </additional>
   </additionals>
   -->
+  <additionals>
+    <additional>
+      <title>Paperboy Games</title>
+      <description>Programmer for team in 2021-2022</description>
+      <link>https://paperboy-games.github.io/presskit/product/index.html</link>
+    </additional>
+  </additionals>
 
   <credits>
     <credit>
