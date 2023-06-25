@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <company>
   <title>mattlawr</title>
-  <based-in>USA</based-in>
+  <based-in>California, USA</based-in>
   <founding-date>2014</founding-date>
   <website>http://mattlawr.github.io</website>
   <press-contact>
@@ -21,28 +21,19 @@
         https://mattlawr.itch.io/
       </link>
     </social>
-	<social>
-      <name>IndieDB</name>
-      <link>
-        https://www.indiedb.com/company/power-spark-games
-      </link>
-    </social>
   </socials>
 
   <description>
-	mattlawr is solo indie game developer Matthew Lawrence who began making games in 2014.
-	His current project is ENCHAIN, an experimental first person shooter + exploration-platformer.
+	Matthew Lawrence is a solo indie game developer, a.k.a. mattlawrdev or just mattlawr (company). They make games in their free time, and specialize in deeply interactive experiences.
+	Their current project is ENCHAIN, an experimental first person shooter + exploration-platformer.
   </description>
 
   <!-- Choose between a single block: -->
   <history>
-	  Matthew Lawrence is a university student from California majoring in Computer Science.
-	  Before college, he would spend time absorbing YouTube videos about Unity and Blender, slowly picking up on the process of game development.
-	  He started regularly joining the Ludum Dare game jam, trying out various genres and some overambitious ideas.
-	  At first he wasn’t familiar with programming at all, but that changed when he took on a larger project.
-	  He Googled solutions to small problems day by day, slowly building a little multiplayer FPS game called Bionic.
-	  That journey taught him the skills about programming and Blender that he would use to make original games.
-	  Since then, he has continued to join game jams every now and then, but mattlawr is primarily working on ENCHAIN.
+	  Matthew Lawrence works a full-time programming job in California but continues solo game development as personal enrichment.
+	  Matthew received a degree in Computer Science in 2023.
+	  Before college, they self-taught themselves game development. The Ludum Dare game jam, for example, was a regular activity for them through high school.
+	  Since then, they continue to make small projects every now and then, but mattlawr is primarily working on ENCHAIN for the foreseeable future.
   </history>
   
   <!-- Or multiple blocks: -->
