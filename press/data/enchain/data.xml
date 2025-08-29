@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game>
   <title>ENCHAIN</title>
-  <website>https://store.steampowered.com/app/1396870/ENCHAIN/</website>
+  <website>https://mattlawr.dev/ENCHAIN/</website>
+  <press-contact>
+    mattlawrdev@gmail.com
+  </press-contact>
   <release-dates>
-	<release-date>Full Release 2024+</release-date>
-	<release-date>Early Access Coming 2023</release-date>
+	<release-date>Early Access in development</release-date>
+  <release-date>Demo 0.3.0 December 30, 2021</release-date>
+  <release-date>Demo 0.2.0 June 16, 2021</release-date>
+  <release-date>Demo 0.1.1 January 12, 2021</release-date>
 	<release-date>Demo Release October 29, 2020</release-date>
-	<release-date>Prototype December 05, 2017</release-date>
+	<release-date>Jam Entry December 05, 2017</release-date>
   </release-dates>
 
+  <widgets>
+    <steam>1396870</steam>
+  </widgets>
+
   <socials>
+    <social>
+      <name>Bluesky</name>
+      <link>
+        https://mattlawrdev.bsky.social
+      </link>
+    </social>
     <social>
       <name>Twitter</name>
       <link>
@@ -19,8 +34,8 @@
   </socials>
 
   <trailers>
-	<trailer>
-      <name>Early Access Release Date Trailer</name>
+	  <trailer>
+      <name>Early Access Trailer</name>
       <youtube>
         x0E6Hy5mQSo
       </youtube>
@@ -43,35 +58,89 @@
   </description>
 
   <!-- Choose between a single block: -->
-  <history>This solo project started in late 2017 as a Ludum Dare 40 entry, created in 72 hours. Theme: "The more you have, the worse it is."
-  The concept in this first rough prototype was a simple, retro inspired FPS with a main grapple hook mechanic and a “burden” mechanic that treated enemies as the keys to doors.
-  After about three months of working on this jam game, developer mattlawr (Matthew Lawrence) decided to rework the game as their next big project.
-  A lot has changed in the years since then, with tons of iteration and shifts in the development. A major barrier to development from 2019-2023 been that mattlawr was focusing attention on university.
-  </history>
+  <histories>
+    <history>
+      <header>2017 Jam Entry</header>
+      <text>ENCHAIN began in late 2017 as a Ludum Dare 40 entry, created in 72 hours. Theme: "The more you have, the worse it is."
+      The concept in this first rough prototype was a simple, retro inspired FPS with a main grapple hook mechanic and a "burden" mechanic that treated enemies as the keys to doors.</text>
+    </history>
+    <history>
+      <header>2018-2020 Early Development</header>
+      <text>After about three months of making small updates on this jam game, developer mattlawrdev (Matthew) decided to rework the game as their next big project.
+      This period saw tons of iteration and shifts in development, drawing from soulslikes and collectathons, expanding ENCHAIN into something completely unique.
+      Starting in 2019, Matthew began a Computer Science university program. This put a major halt on development as they focused on their studies.
+      Once the pandemic occurred, free-time was at hand, and by the end of 2020 a demo of ENCHAIN was released on Steam.</text>
+    </history>
+    <history>
+      <header>2020-2021 Demo Development</header>
+      <text>Gathering feedback on this free demo was extremely successful, and a patch quickly addressed some of the targeting grapple hook issues players were facing, as well as extra polish.
+      Soon after this patch, two larger updates were developed in 2021.
+      Early Access was even originally announced with a September 2021 release date, which Matthew had to soon delay after receiving much critical feedback and fixing those issues instead.</text>
+    </history>
+    <history>
+      <header>2021-2023 Work on Initial Release</header>
+      <text>It was time to build the larger sections of the game now that the Demo had received much gameplay polish.
+      With Matthew's university studies becoming more involved, this period saw development time become increasingly limited.
+      Early Access was a potential goal but Matthew was careful not to rush the release, and prioritized finishing university strong while also taking care of themselves.
+      A 2023 status update blog post went out to all those waiting for the game, to explain the situation clearly, with no release date promised.</text>
+    </history>
+    <history>
+      <header>2023-Present</header>
+      <text>ENCHAIN development continues, with Early Access planned as the next release.
+      Throughout development, Matthew had strictly determined to avoid funding ENCHAIN with a third party such as a publisher.
+      ENCHAIN had already gotten so far without funding, and Matthew did not want to introduce financial pressures or complexities to the project.
+      As a result, Matthew's choice after graduating university was to work as a game programmer full-time in order to immediately support themselves.
+      That is what Matthew has done, keeping ENCHAIN as a limited personal project for free-time when in need of a creative outlet.
+      Development has significantly slowed during this period, but it nevertheless continues for a future release as soon as ENCHAIN is ready.</text>
+    </history>
+  </histories>
+
+  <quotes>
+    <quote>
+      <description>ENCHAIN is shaping up to be my favorite [soulslike platformer] so keep an eye on it.</description>
+      <name>FUNKe, July 2021</name>
+      <website>YouTube</website>
+      <link>
+        https://www.youtube.com/watch?v=oRTh2aMgPY4
+      </link>
+    </quote>
+    <quote>
+      <description>I cannot stress enough how much this is my jam... Incredible demo. I am looking forward to this game so so much.</description>
+      <name>Iron Pineapple, December 2021</name>
+      <website>YouTube</website>
+      <link>
+        https://www.youtube.com/_daI7XwEznw
+      </link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title>2023 status update blog post</title>
+      <description>Announcement on why ENCHAIN is taking a long time to finish.</description>
+      <link>https://store.steampowered.com/news/app/1396870/view/3909752009315793094</link>
+    </additional>
+  </additionals>
 
   <features>
     <feature>Grapple, swing, and impale enemies with the Lantern Hook</feature>
-	<feature>Shoot, kick, and dive between platforming and combat</feature>
-	<feature>Break open and harvest the bones of the undead</feature>
-	<feature>Explore an intertwined, non-linear underworld</feature>
-	<feature>Listen to atmospheric, groovy music by Oliver Trinidad</feature>
+	  <feature>Shoot, kick, and dive between platforming and combat</feature>
+	  <feature>Break open and harvest the bones of the undead</feature>
+	  <feature>Explore an intertwined, non-linear underworld</feature>
+	  <feature>Listen to atmospheric, groovy music by Oliver Trinidad</feature>
   </features>
   
   <platforms>
-	<platform>
+	  <platform>
       <name>Steam</name>
-	  <link>https://store.steampowered.com/app/1396870/ENCHAIN/</link>
+	    <link>https://store.steampowered.com/app/1396870/ENCHAIN/</link>
     </platform>
     <platform>
       <name>Itch.io</name>
       <link>https://mattlawr.itch.io/enchain</link>
     </platform>
-	<platform>
-      <name>GameJolt</name>
-      <link>https://gamejolt.com/games/enchain/302640</link>
-    </platform>
-	<platform>
-      <name>WebGL/Standalone Jam Entry</name>
+	  <platform>
+      <name>Itch.io Classic Edition - 2017 Jam Entry</name>
       <link>https://mattlawr.itch.io/enchainclassic</link>
     </platform>
   </platforms>
@@ -86,16 +155,6 @@
       <value>€15.20</value>
     </price>-->
   </prices>
-  
-  <!-- Or multiple blocks: -->
-  <!--
-  <histories>
-    <history>
-      <header></header>
-      <text></text>
-    </history>
-  </histories>
-  -->
 
   <credits>
     <credit>
@@ -119,7 +178,7 @@
       <name>Matthew Lawrence</name>
 
       <!-- Pick one: -->
-      <mail>mattblawr@gmail.com</mail>
+      <mail>mattlawrdev@gmail.com</mail>
       <link></link>
     </contact>
   </contacts>
