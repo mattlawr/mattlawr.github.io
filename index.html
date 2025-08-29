@@ -3,8 +3,8 @@
 <title>mattlawr</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="My name is Matthew Lawrence and I make games, videos, and other media. I am a student indie developer.">
-<meta name="keywords" content="mattlawr, indie, portfolio, games, developer, computer science, student">
+<meta name="description" content="My name is Matthew and I make games, videos, and other media. I am an indie game developer.">
+<meta name="keywords" content="mattlawrdev, mattlawr, indie, portfolio, games, developer, solodev, enchain">
 <meta name="author" content="Matthew Lawrence">
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -152,6 +152,32 @@ a:hover{
     transition: max-height 0.2s ease-out;
 }
 
+/* section, no collapsing */
+.section-header {
+    background-color: #1B1B1B;
+    padding: 18px;
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    clear: both;
+    
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.section-panel {
+    padding: 0 18px;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: #232323;
+    /*max-height: 0;*/
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
 
 
 /* Create a Parallax Effect */
@@ -204,7 +230,7 @@ a:hover{
 <div class="bgimg-1 w3-display-container w3-animate-opacity" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <p class="w3-center w3-xlarge w3-wide w3-opacity-min w3-text-white">
-      <b> MATT</b>HEW_<br><b> LAWR</b>ENCE</p>
+      ⠀<b>matt</b>hew⠀<br>⠀<b>lawr</b>ence<br>⠀⠀⠀⠀⠀game<br><b>dev</b>⠀⠀⠀⠀</p>
     <p class="w3-center w3-xlarge w3-wide w3-opacity-min" style="height: 80px;">
       
 	  <a href="https://store.steampowered.com/app/1396870/ENCHAIN/" style="color:white">
@@ -215,8 +241,8 @@ a:hover{
         <img title="Game Jolt" class="w3-hover-opacity" src="images/icons/w_gamejolt.png" height=24 style="image-rendering: crisp-edges;"></img></a-->
       <!--a href="http://www.indiedb.com/company/power-spark-games" style="color:white">
         <img title="IndieDB" class="w3-hover-opacity" src="images/icons/w_indiedb.png" height=24 style="image-rendering: crisp-edges;"></img></a-->
-      <a href="https://twitter.com/mattlawrdev" style="color:white">
-        <i title="Twitter" class="fa fa-twitter w3-hover-opacity" style="width:24px"></i></a>
+      <a href="https://mattlawrdev.bsky.social" style="color:white">
+        <img title="bluesky" class="w3-hover-opacity" src="images/icons/w_bluesky.png" height=24 style="image-rendering: crisp-edges;"></img></a>
     
     </p>
 	
@@ -226,16 +252,16 @@ a:hover{
 
 <!-- Container -->
 <div>
-  <button class="accordion"><h3 class="parCent1">ABOUT</h3></button>
-    <div class="panel">
-      <p class="parCent1">My name is Matthew Lawrence and I make games, videos, and other media. <a href="https://mattlawr.github.io/press/presskit">presskit()</a></p>
-      <p class="parCent1">My hobby project is <a href="https://store.steampowered.com/app/1396870/ENCHAIN/">ENCHAIN</a>, a small, experimental first person shooter which I develop solo, along with my friend Oliver as the composer.</p>
-      <p class="parCent1">Below you will find a brief list of all my past projects.</p>
+  <div class="section-header"><h3 class="parCent1 w3-wide">about</h3></div>
+    <div class="section-panel">
+      <p class="parCent1">My name is Matthew, sometimes going by "mattlawrdev", and I make games, videos, and other media. <a href="https://mattlawr.github.io/press/presskit">presskit()</a></p>
+      <p class="parCent1">My main project is <a href="https://store.steampowered.com/app/1396870/ENCHAIN/">ENCHAIN</a>, a movement-exploration first person shooter.</p>
+      <p class="parCent1"><b>contact me</b>: mattlawrdev(at)<span style="display:none;">ignoreme-</span>gmail.com</p>
     </div>
     
     
-  <button class="accordion"><h3 class="parCent1">PROJECTS</h3></button>
-  <div class="panel">
+  <div class="section-header"><h3 class="parCent1 w3-wide">projects</h3></div>
+  <div class="section-panel">
   
   <div class="grid-container-c" style="height:400px">
     <div class="grid-item-b">
@@ -243,7 +269,7 @@ a:hover{
         <h4 style="padding-left:4px"><b>ENCHAIN (2017-Present)</b></h4>
         <img src="images/thumbs/enc_h1.png" style="width:100%; float:left;">
         <p style="padding:var(--gTxtPadding); clear:both;">ENCHAIN is a retro inspired FPS
-        with a focus on grapple <i>chain</i> mechanics, dynamic platforming, and intertwined exploration. In development, try demo on <a href="https://store.steampowered.com/app/1396870/ENCHAIN/">Steam</a>.</p>
+        with a focus on grapple hook action, dynamic platforming, and intertwined exploration. In development, try the demo on <a href="https://store.steampowered.com/app/1396870/ENCHAIN/">Steam</a>.</p>
       </div>
       <div style="border-style:solid; border-width:0px; border-left-width:3px; border-color:#111111; margin-left:55%; height:100%; margin-top:-10px;">
         <h6 class="w3-center" style="padding:0px; padding-top:100px;
@@ -257,151 +283,12 @@ a:hover{
         </h6>
       </div>
     </div>
-	<div class="grid-item-b">
-      <div style="width:55%; height:100%; float:left">
-        <h4 style="padding-left:4px"><b>Contract Killer (2021-2022)</b></h4>
-        <img src="images/thumbs/ckr_th1.jpg" style="width:100%; float:left;">
-        <p style="padding:var(--gTxtPadding); clear:both;">Contract Killer is a co-op beat 'em up featuring 4 characters and an action-packed campaign. Released on Steam in May 2022, coming soon to Nintendo Switch.</p>
-      </div>
-      <div style="border-style:solid; border-width:0px; border-left-width:3px; border-color:#111111; margin-left:55%; height:100%; margin-top:-10px;">
-        <h6 class="w3-center" style="padding:0px; padding-top:100px;
-        height:80%">
-		  <p>Team project. I handled the core gameplay programming and design, and created the backend tools for configuring enemy and player movesets, level roads, and event triggers.</p>
-		  <a href="https://store.steampowered.com/app/1588250/Contract_Killer/">Steam</a><br>
-		  <a href="https://youtu.be/cET6Q6a-BP4">Reveal Trailer</a><br>
-          <a href="https://paperboy-games.github.io/presskit/product/index.html">presskit()</a><br>
-        </h6>
-      </div>
-    </div>
   </div>
-  
-  <!--<h4 class="parCent1">OLD PROJECTS + GAME JAMS</h4>-->
-  <div class="grid-container-c" style="height: 20px">
-	<div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Harvesterado (2020)</b></h4>
-      <div style="background-image: url(images/thumbs/hvt_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">
-        Mouse-only survival farming western.<br>
-      <i>Created for Miz Jam 2020</i>
-      </p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://mattlawr.itch.io/harvesterado">Itch.io</a><br>
-      </p>
-    </div>
-	<div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Barrel Roll (2020)</b></h4>
-      <div style="background-image: url(images/thumbs/brl_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">
-        Two-button 3D flight simulator about doing barrel rolls.<br>
-      <i>Created for VGDC Spring Game Jam 2020</i>
-      </p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://mattlawr.itch.io/barrel-roll">Itch.io</a><br>
-      </p>
-    </div>
-	<div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Time Sweeper (2020)</b></h4>
-      <div style="background-image: url(images/thumbs/tsw_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">
-        Local multiplayer party game about surviving on a clock. Made with Alvin Wong and Brandon Foey.<br>
-      <i>Created for VGDC Winter Game Jam 2020</i>
-      </p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://mattlawr.itch.io/time-sweeper">Itch.io</a><br>
-      </p>
-    </div>
-    <div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>A Froggy Day (2019)</b></h4>
-      <div style="background-image: url(images/thumbs/frg_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">
-        One-button rain catching frog game about mechanical mastery and egg protection.<br>
-      <i>Created for GMTK Game Jam 2019</i>
-      </p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://mattlawr.itch.io/a-froggy-day">Itch.io</a><br>
-      </p>
-    </div>
-    <div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Bionic (2014-2017)</b></h4>
-      <div style="background-image: url(images/thumbs/bio_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">CS-inspired multiplayer shooter with custom bot
-      and map support. Partial web browser support.</p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://gamejolt.com/games/bionic/96904">Game Jolt</a><br>
-          <a href="https://powerspark.itch.io/bionic">Itch.io</a><br>
-          <a href="http://www.indiedb.com/games/bionicfps">IndieDB</a>
-      </p>
-    </div>
-    <div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Astral Fantasy (2018)</b></h4>
-      <div style="background-image: url(images/thumbs/ast_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">
-        Mixing of space physics and turn-based retro RPG elements.<br>
-      <i>Theme: Combine 2 Incompatible Genres</i>
-      </p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://powerspark.itch.io/astral-fantasy">Itch.io</a><br>
-          <a href="https://ldjam.com/events/ludum-dare/41/astral-fantasy">Ludum Dare Entry</a>  <font size="0.8">(TOP 100 IN 5 CATEGORIES)</font>
-      </p>
-    </div>
-    <div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Gaia (2017)</b></h4>
-      <div style="background-image: url(images/thumbs/gai_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Platformer with interactive clouds used to jump through levels.
-      <i>Theme: Small World</i></p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://gamejolt.com/games/gaia/251843">Game Jolt</a><br>
-          <a href="https://powerspark.itch.io/gaia">Itch.io</a><br>
-          <a href="https://ldjam.com/events/ludum-dare/38/gaia">Ludum Dare Entry</a>
-      </p>
-    </div>
-    <div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Super Battle Cycle (2017)</b></h4>
-      <div style="background-image: url(images/thumbs/sbc_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Drive around a toy motorcycle swinging boxes into enemies.
-      <i>Theme: One Room</i></p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://gamejolt.com/games/sbc/217338">Game Jolt</a><br>
-          <a href="https://powerspark.itch.io/super-battle-cycle">Itch.io</a><br>
-          <a href="http://ludumdare.com/compo/ludum-dare-37/?action=preview&uid=38755">Ludum Dare Entry</a>
-      </p>
-    </div>
-    <div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Fugitive Shift (2016)</b></h4>
-      <div style="background-image: url(images/thumbs/fug_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Use a team of escapees with special powers
-      to find the exit.
-      <i>Theme: Shapeshift</i></p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://gamejolt.com/games/fugitive-shift/141716">Game Jolt</a><br>
-          <a href="https://powerspark.itch.io/fugitive-shift">Itch.io</a><br>
-          <a href="http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=38755">Ludum Dare Entry</a>
-      </p>
-    </div>
-    <div class="grid-item-c">
-      <h4 style="padding-left:var(--gTxtPadding)"><b>Edo Arena (2016)</b></h4>
-      <div style="background-image: url(images/thumbs/edo_th1.png); background-size:cover; height:180px;
-      background-position:center;"></div>
-      <p style="padding-left:var(--gTxtPadding); padding-right:var(--gTxtPadding)">Swing to leap into the air,
-      building combos off of enemies.
-      <i>Theme: Two Buttons</i></p>
-      <p style="padding-left:var(--gTxtPadding);">
-          <a href="https://gamejolt.com/games/edo-arena/113654">Game Jolt</a><br>
-          <a href="https://powerspark.itch.io/edo-arena">Itch.io</a><br>
-          <a href="http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=38755">Ludum Dare Entry</a>
-      </p>
-    </div>
-  </div>
+	
   <br>
+  <p class="parCent1">My other games and prototypes are hosted over on <a href="https://mattlawr.itch.io">itch.io</a></p>
+  </br>
+
   </div>
 
 <!-- Model for full size images on click
@@ -430,7 +317,7 @@ a:hover{
     <a href="https://www.facebook.com/powersparkgames" style="color:white"><i class="fa fa-facebook-square w3-hover-opacity"></i></a>
   </div>-->
   <div>
-    <p class="w3-center">&copy; 2018-2023 Matthew Lawrence</p>
+    <p class="w3-center">&copy; 2025 Matthew Lawrence</p>
   </div>
 </footer>
 
