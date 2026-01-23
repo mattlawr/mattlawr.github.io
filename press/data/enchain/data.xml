@@ -6,7 +6,7 @@
     mattlawrdev@gmail.com
   </press-contact>
   <release-dates>
-	<release-date>Early Access in development</release-date>
+	<release-date>Early Access February 12, 2026</release-date>
   <release-date>Demo 0.3.0 December 30, 2021</release-date>
   <release-date>Demo 0.2.0 June 16, 2021</release-date>
   <release-date>Demo 0.1.1 January 12, 2021</release-date>
@@ -34,8 +34,14 @@
   </socials>
 
   <trailers>
-	  <trailer>
-      <name>Early Access Trailer</name>
+	<trailer>
+      <name>Early Access Release Date Trailer</name>
+      <youtube>
+        e9wYzuu2uME
+      </youtube>
+    </trailer>
+	<trailer>
+      <name>Early Access Preview (delayed)</name>
       <youtube>
         x0E6Hy5mQSo
       </youtube>
@@ -75,23 +81,27 @@
       <header>2020-2021 Demo Development</header>
       <text>Gathering feedback on this free demo was extremely successful, and a patch quickly addressed some of the targeting grapple hook issues players were facing, as well as extra polish.
       Soon after this patch, two larger updates were developed in 2021.
-      Early Access was even originally announced with a September 2021 release date, which Matthew had to soon delay after receiving much critical feedback and fixing those issues instead.</text>
+      Early Access was even originally announced with a September 2021 release date, which had to soon be delayed after it received a volume of critical feedback and issues that needed to be addressed in patches.</text>
     </history>
     <history>
       <header>2021-2023 Work on Initial Release</header>
       <text>It was time to build the larger sections of the game now that the Demo had received much gameplay polish.
-      With Matthew's university studies becoming more involved, this period saw development time become increasingly limited.
-      Early Access was a potential goal but Matthew was careful not to rush the release, and prioritized finishing university strong while also taking care of themselves.
+      With the developer's university studies becoming more involved, this period saw development time become increasingly limited.
+      Early Access was a potential goal but there was a focus in not rushing out the release. Finishing university strong was prioritized over the game.
       A 2023 status update blog post went out to all those waiting for the game, to explain the situation clearly, with no release date promised.</text>
     </history>
     <history>
-      <header>2023-Present</header>
+      <header>2023-2025</header>
       <text>ENCHAIN development continues, with Early Access planned as the next release.
       Throughout development, Matthew had strictly determined to avoid funding ENCHAIN with a third party such as a publisher.
-      ENCHAIN had already gotten so far without funding, and Matthew did not want to introduce financial pressures or complexities to the project.
+      ENCHAIN had already gotten so far without funding, and financial pressures did not appear like something the project needed.
       As a result, Matthew's choice after graduating university was to work as a game programmer full-time in order to immediately support themselves.
-      That is what Matthew has done, keeping ENCHAIN as a limited personal project for free-time when in need of a creative outlet.
+      There was some value in keeping ENCHAIN as a limited personal project for free-time when in need of a creative outlet.
       Development has significantly slowed during this period, but it nevertheless continues for a future release as soon as ENCHAIN is ready.</text>
+    </history>
+	<history>
+      <header>January 2026</header>
+      <text>Finally, an Early Access release date is announced for February 12th 2026.</text>
     </history>
   </histories>
 
@@ -115,6 +125,11 @@
   </quotes>
 
   <additionals>
+	<additional>
+      <title>2026 Early Access release date blog post</title>
+      <description>Announcement of ENCHAIN's confirmed Steam Early Access release date.</description>
+      <link>https://store.steampowered.com/news/app/1396870/view/510729314639021678</link>
+    </additional>
     <additional>
       <title>2023 status update blog post</title>
       <description>Announcement on why ENCHAIN is taking a long time to finish.</description>
