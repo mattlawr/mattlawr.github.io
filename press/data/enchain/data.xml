@@ -6,7 +6,7 @@
     mattlawrdev@gmail.com
   </press-contact>
   <release-dates>
-	<release-date>Early Access February 12, 2026</release-date>
+	<release-date>Early Access February 13, 2026</release-date>
   <release-date>Demo 0.3.0 December 30, 2021</release-date>
   <release-date>Demo 0.2.0 June 16, 2021</release-date>
   <release-date>Demo 0.1.1 January 12, 2021</release-date>
@@ -26,6 +26,24 @@
       </link>
     </social>
     <social>
+      <name>YouTube</name>
+      <link>
+        https://www.youtube.com/@mattlawrdev
+      </link>
+    </social>
+    <social>
+      <name>Instagram</name>
+      <link>
+        https://www.instagram.com/mattlawrdev
+      </link>
+    </social>
+    <social>
+      <name>TikTok</name>
+      <link>
+        https://www.tiktok.com/@mattlawrdev
+      </link>
+    </social>
+    <social>
       <name>Twitter</name>
       <link>
         https://twitter.com/mattlawrdev
@@ -33,7 +51,13 @@
     </social>
   </socials>
 
-  <trailers>
+  <trailers>AyuQZtHQe_E
+  <trailer>
+      <name>Early Access Launch Trailer</name>
+      <youtube>
+        AyuQZtHQe_E
+      </youtube>
+    </trailer>
 	<trailer>
       <name>Early Access Release Date Trailer</name>
       <youtube>
@@ -101,7 +125,7 @@
     </history>
 	<history>
       <header>January 2026</header>
-      <text>Finally, an Early Access release date is announced for February 12th 2026.</text>
+      <text>Finally, an Early Access release date is announced for February 2026.</text>
     </history>
   </histories>
 
@@ -163,7 +187,7 @@
   <prices>
     <price>
       <currency>USD</currency>
-      <value>TBD</value>
+      <value>$19.99</value>
     </price>
     <!--<price>
       <currency>EUR</currency>
