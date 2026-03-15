@@ -14,10 +14,6 @@
 	<release-date>Jam Entry December 05, 2017</release-date>
   </release-dates>
 
-  <widgets>
-    <steam>1396870</steam>
-  </widgets>
-
   <socials>
     <social>
       <name>Bluesky</name>
@@ -51,7 +47,7 @@
     </social>
   </socials>
 
-  <trailers>AyuQZtHQe_E
+  <trailers>
   <trailer>
       <name>Early Access Launch Trailer</name>
       <youtube>
@@ -221,4 +217,8 @@
       <link></link>
     </contact>
   </contacts>
+
+  <widgets>
+    <steam>1396870</steam>
+  </widgets>
 </game>
