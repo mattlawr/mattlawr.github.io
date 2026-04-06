@@ -48,13 +48,31 @@ a:hover{
 }
 
 .button-linklist {
-    --button-text: #ffffff;
-    --button-background: #0a1c66;
-    --button-border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background: #0a1c46;
+    
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-size: 18px;
+
+    min-height: 32px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+}
+.button-linklist:hover {
+    background: #2a2c56;
 }
 .icon-linklist {
     --aria-hidden: true;
     height: 24px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .parCent1 {
@@ -240,7 +258,7 @@ a:hover{
 <div class="bgimg-1 w3-display-container w3-animate-opacity" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <p class="w3-center w3-xlarge w3-wide w3-opacity-min w3-text-white">
-      mattlawrdev
+      <a href="https://mattlawr.dev" style="color: inherit;">mattlawrdev</a>
     </p>
     
     <p><a class="button button-linklist" href="https://store.steampowered.com/app/1396870/ENCHAIN/" target="_blank" rel="noopener" role="button">
