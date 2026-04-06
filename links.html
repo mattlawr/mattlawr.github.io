@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<title>mattlawrdev</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="My name is Matthew and I make games, videos, and other media. I am an indie game developer.">
+<meta name="keywords" content="mattlawrdev, mattlawr, indie, portfolio, games, developer, solodev, enchain">
+<meta name="author" content="Matthew Lawrence">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<style>
+:root
+{
+  --gTxtPadding: 6px;
+  --minWidth: 290px;
+  --minWidthW: 640px;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Helvetica", sans-serif;
+  src: url("fonts/helvetica.woff") format('woff');
+  
+  color: #c4bebd;
+  
+}
+body, html {
+    height: 100%;
+    background: #080808;
+    background: no-repeat center fixed #232323;
+    /*linear-gradient(to bottom, #381310, #050505)*/
+    background-size: cover;
+    
+    color: #c4bebd;
+    line-height: 1.5;
+}
+p {
+  font-size: 11pt;
+}
+a {
+  color: #a83e3e;
+  text-decoration: none;
+}
+a:hover{
+  color: #f2482e;
+  text-decoration: underline;
+}
+
+.button-linklist {
+    --button-text: #ffffff;
+    --button-background: #0a1c66;
+    --button-border: 1px solid #FFFFFF;
+}
+.icon-linklist {
+    --aria-hidden: true;
+    height: 24px;
+}
+
+.parCent1 {
+
+  width: 80%;
+  min-width: var(--minWidth);
+
+  margin-left: auto;
+
+  margin-right: auto;
+  
+  padding-left: 2%;
+  padding-right: 2%;
+  
+  clear: both;
+
+}
+
+.grid-container-c {
+  width: 85%;
+  min-width: var(--minWidthW);
+  max-width: 800px;
+  margin-left:auto;
+  margin-right:auto;
+  
+  /*background-color: #273737;*/
+}
+.grid-item-b {
+  width: 95%;
+  min-width: var(--minWidth);
+  height: 360px;
+  float: left;
+  
+  background-color: #171717;
+  text-align: left;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.grid-item-c {
+  width: 45.5%;
+  min-width: var(--minWidth);
+  height: 380px;
+  float: left;
+  
+  background-color: #171717;
+  text-align: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.grid-item {
+  background-color: #171717;
+  padding: 0px;
+  text-align: left;
+}
+
+/* Accordion panel */
+.accordion {
+    background-color: #1B1B1B;
+    cursor: pointer;
+    padding: 18px;
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    clear: both;
+    
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.accordion-w {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    
+    width: 100%;
+    clear: both;
+    
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked (.active class with JS), and (hover) */
+.active, .accordion:hover {
+    background-color: #121212;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: #232323;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* section, no collapsing */
+.section-header {
+    background-color: #1B1B1B;
+    padding: 18px;
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    clear: both;
+    
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.section-panel {
+    padding: 0 18px;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: #232323;
+    /*max-height: 0;*/
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+	font-family: 'Source Code Pro', monospace;
+    font-weight: 50;
+  
+    background-image: url('images/span1.gif');
+    min-height: 100%;
+}
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url('images/thumbs/enc_bk2.png');
+    min-height: 350px;
+}
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url('images/thumbs/enc_bk2.png');
+    min-height: 350px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Change scaling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;/* Turn off parallax scrolling */
+    }
+    .parCent1, .grid-container-c, .grid-item-c, .grid-item-b {
+      width: 100%;
+      min-width: var(--minWidth);
+    }
+    .grid-item-c, .grid-item-b {
+      margin-left: 0%;
+    }
+}
+</style>
+
+<body>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-animate-opacity" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <p class="w3-center w3-xlarge w3-wide w3-opacity-min w3-text-white">
+      mattlawrdev
+    </p>
+    
+    <p><a class="button button-linklist" href="https://store.steampowered.com/app/1396870/ENCHAIN/" target="_blank" rel="noopener" role="button">
+      <img class="icon-linklist" src="images/icons/w_steam.png" alt="steam icon">
+      ENCHAIN on Steam
+    </a></p>
+    <p><a class="button button-linklist" href="https://mattlawr.itch.io/" target="_blank" rel="noopener" role="button">
+      <img class="icon-linklist" src="images/icons/w_itchio.png" alt="itchio icon">
+      itch.io
+    </a></p>
+    <p><a class="button button-linklist" href="https://bsky.app/profile/mattlawr.dev" target="_blank" rel="noopener" role="button">
+      <img class="icon-linklist" src="images/icons/w_bluesky.png" alt="bluesky icon">
+      bluesky
+    </a></p>
+    <p><a class="button button-linklist" href="https://www.youtube.com/@mattlawrdev" target="_blank" rel="noopener" role="button">
+      <img class="icon-linklist" src="images/icons/w_youtube.png" alt="youtube icon">
+      youtube
+    </a></p>
+    <p><a class="button button-linklist" href="https://www.instagram.com/mattlawrdev" target="_blank" rel="noopener" role="button">
+      <img class="icon-linklist" src="images/icons/w_instagram.png" alt="instagram icon">
+      instagram
+    </a></p>
+
+    <!--footer>
+      <p class="w3-center">&copy; 2026 Matthew Lawrence</p>
+    </footer-->
+  </div>
+</div>
+
+</body>
+</html>
